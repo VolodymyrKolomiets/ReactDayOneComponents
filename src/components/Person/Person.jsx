@@ -1,10 +1,13 @@
+import './Person.css'
 
-const Person = ()=> {
+//rafce
+import React from 'react'
+const Person = ({name, lastName, age})=> {
     return (
-        <div>
-        <p>Name</p>
-        <p>Lastname</p>
-        <p>Age</p>
+        <div className='person'>
+        <p>Name:{name}</p>
+        <p>Lastname:{lastName}</p>
+        <p>Age:{age}</p>
         </div>
     )
 }
