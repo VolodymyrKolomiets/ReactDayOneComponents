@@ -41,7 +41,7 @@ function App() {
       <PersonClasses name = {joan.name} lastName = {joan.lastName} age = {joan.age}/>
       <PersonClasses name = {adrian.name} lastName = {adrian.lastName} age = {adrian.age}/>
     
-      <Users userInfo={usersInfo} />
+      <Users users={usersInfo} />
     </div>
   )
 }
